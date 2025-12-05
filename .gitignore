@@ -1,19 +1,101 @@
-CMakeLists.txt.user
+# ============================================================
+#   CSC317 Dragon Ragdoll Project — .gitignore
+# ============================================================
+
+# -------------------------------
+# Build directories
+# -------------------------------
+build/
+build*/
+cmake-build-*/
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
 Makefile
+
+# -------------------------------
+# CMake generated files
+# -------------------------------
+*.cmake
+CMakeScripts/
+CTestTestfile.cmake
 cmake_install.cmake
 install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
 
-# CLion
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#cmake-build-*
+# -------------------------------------------------
+# IDE / Editor files (CLion, VSCode, Xcode, VS)
+# -------------------------------------------------
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# macOS Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.ipch
+*.aps
+*.user
+*.cache
+*.db
+*.opendb
+*.tlog
+*.log
+
+# Visual Studio generated dirs
+Debug/
+Release/
+x64/
+x86/
+*.vc.db
+*.VC.db
+
+# --------------------------------
+# OS system files
+# --------------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------------
+# Python cache (if scripts used)
+# --------------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# --------------------------------
+# Generated media / screenshots
+# --------------------------------
+media/*.mp4
+media/*.mov
+media/*.avi
+media/*.gif
+
+# Keep placeholder GIF
+!media/placeholder.gif
+
+# --------------------------------
+# Do NOT ignore OBJ, JSON, DMAT
+# These are needed for the dragon model
+# --------------------------------
+!data/**/*.obj
+!data/**/*.json
+!data/**/*.dmat
+
+# --------------------------------
+# Temporary files from text editors
+# --------------------------------
+*~
+*.swp
+*.swo
+*.tmp
