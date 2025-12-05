@@ -1,4 +1,3 @@
-````markdown
 #  Chinese Dragon Ragdoll
 
 ![Dragon Ragdoll Overview](media/dragon_ragdoll_overview.gif)
@@ -8,22 +7,13 @@ This project combines ideas from **Assignment 7 (Kinematics)** and
 **ragdoll Chinese dragon**. Only the **skeleton** is simulated with
 springs and gravity; the **mesh** is deformed in real time via
 linear blend skinning.
-
 ---
-
-## Title
-
-**Dragon Ragdoll – Chinese Dragon Mass-Spring Kinematics**
-
----
-
 ## Personal Information
 
 - **Name:** Siqi Yang  
 - **UtorID:** yangsi41  
 - **Student Number:** 1009574667  
 - **Augmented Assignments:** A7 (Kinematics) and A8 (Mass-Spring Systems)
-
 ---
 
 ## Instructions
@@ -42,10 +32,6 @@ csc317-dragon/
   media/                  # GIFs/videos for the Piece/Compilation Verification
   ...
 ````
-
-The entire demo lives in `main.cpp` and reuses the course `Skeleton`,
-`Bone`, and `linear_blend_skinning` code from `include/` and `src/`.
-
 ### Dependencies
 
 * **C++17** compiler
@@ -329,8 +315,3 @@ this project builds a new skeleton and skinning weights on top of the mesh.
 No additional external C++ libraries beyond those used in the course
 framework are required.
 
----
-
-```
-::contentReference[oaicite:0]{index=0}
-```
